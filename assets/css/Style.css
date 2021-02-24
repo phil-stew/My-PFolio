@@ -1,4 +1,4 @@
-header{
+.name{
     font-size: 45px;
     font-family: cursive;
     font-weight: bold;
@@ -10,9 +10,18 @@ header{
     opacity: 0.9;
     border-radius: 10px 10px;
 }
-
+.sub{
+    margin-top: -45px;
+    font-size: 15px;
+    float: right;
+    text-align: right;  
+}    
+.top-list{
+    display: inline-block;
+}
+    
 body{
-    background-image: url("../assets/images/gundamwing.jpg");
+    background-image: url(../assets/images/ps5.jpg);
     width: 95%; 
 
      
@@ -30,20 +39,14 @@ body{
     margin-left: -9px;
     margin-top: -9px;
     display: inline-block;
+    background-image: url(../assets/images/ps5.jpg);
 }
 
-.sub{
-    font-size: 15px;
-    float: right;
-    text-align: right;
-    list-style: none;
-    
-}    
-    
+
 
 .info{
-    background-color: goldenrod;
-    opacity: 0.9;
+    background-color: rgb(155, 194, 245);
+    opacity: 0.8;
     width: 90%;
     margin-left: 10px;  
     margin: 20px;
