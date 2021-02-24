@@ -16,6 +16,12 @@
     float: right;
     text-align: right;  
 }    
+.info h2{
+    position: fixed;
+    font-size: 60px;
+    color: black;
+    background-color: red;
+}
 .top-list{
     display: inline-block;
 }
