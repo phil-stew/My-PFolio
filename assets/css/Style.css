@@ -12,15 +12,14 @@ header{
 }
 
 body{
-    background-image: url(./assets/images/gundamwing.jpg);
-    background-color: lightblue;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 95%;  
+    background-image: url("../assets/images/gundamwing.jpg");
+    width: 95%; 
+
      
 }
  body p{
      text-indent: 20px;
+     font-size: 20px;
  }
 .head{
     padding: 10px;
@@ -28,30 +27,40 @@ body{
     font-size: 28px;
     background-color: rgb(247, 240, 205);
     width:fit-content;
-    margin-left: 10px;
-}
-.about-me{
-    background-color: goldenrod;
-    opacity: 0.9;
-    width: 75%;
-    margin-left: 10px;  
+    margin-left: -9px;
+    margin-top: -9px;
+    display: inline-block;
 }
 
-.work{
-    background-color: cornflowerblue;
-    width: 75%;
-    margin-left: 10px;
-}
-.project{
-    position:relative;
-    width: 55%;
+.sub{
+    font-size: 15px;
     float: right;
-    margin-top: -300px;
-    background-color: violet;
+    text-align: right;
+    list-style: none;
+    
+}    
+    
+
+.info{
+    background-color: goldenrod;
+    opacity: 0.9;
+    width: 90%;
+    margin-left: 10px;  
+    margin: 20px;
+    padding: 10px;
 }
+.pic{
+    max-width: 200px;
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+
+}
+   
 .end-page{
+    margin-top: 10px;
     background-color: darkgreen;
     width: 95%;
-    opacity: 0.9;
-    text-align:justify;
+   
+    
 } 
