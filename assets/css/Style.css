@@ -1,0 +1,57 @@
+header{
+    font-size: 45px;
+    font-family: cursive;
+    font-weight: bold;
+    margin-top: 15px;
+    padding: 5px;
+    border-style: solid;
+    border-block-width: 5px;
+    background-color: rgb(157, 207, 188);
+    opacity: 0.9;
+    border-radius: 10px 10px;
+}
+
+body{
+    background-image: url(./assets/images/gundamwing.jpg);
+    background-color: lightblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 95%;  
+     
+}
+ body p{
+     text-indent: 20px;
+ }
+.head{
+    padding: 10px;
+    margin: 10px; 
+    font-size: 28px;
+    background-color: rgb(247, 240, 205);
+    width:fit-content;
+    margin-left: 10px;
+}
+.about-me{
+    background-color: goldenrod;
+    opacity: 0.9;
+    width: 75%;
+    margin-left: 10px;  
+}
+
+.work{
+    background-color: cornflowerblue;
+    width: 75%;
+    margin-left: 10px;
+}
+.project{
+    position:relative;
+    width: 55%;
+    float: right;
+    margin-top: -300px;
+    background-color: violet;
+}
+.end-page{
+    background-color: darkgreen;
+    width: 95%;
+    opacity: 0.9;
+    text-align:justify;
+} 
