@@ -7,21 +7,21 @@
     border-style: solid;
     border-block-width: 5px;
     background-color: rgb(157, 207, 188);
-    opacity: 0.9;
+    width: 100%;
     border-radius: 10px 10px;
 }
 .sub{
-    margin-top: -45px;
+    right: 20px;
+    margin-top: -50px;
     font-size: 15px;
-    float: right;
-    text-align: right;  
-}    
-.info h2{
+    text-align: right; 
     position: fixed;
-    font-size: 60px;
-    color: black;
-    background-color: red;
-}
+    border-style: dotted;
+    border-width: 5px;
+    background-color: yellow ;
+    
+}    
+
 .top-list{
     display: inline-block;
 }
@@ -33,10 +33,12 @@ body{
      
 }
  body p{
+   
      text-indent: 20px;
      font-size: 20px;
  }
 .head{
+   
     padding: 10px;
     margin: 10px; 
     font-size: 28px;
@@ -45,14 +47,20 @@ body{
     margin-left: -9px;
     margin-top: -9px;
     display: inline-block;
-    background-image: url(../assets/images/ps5.jpg);
 }
-
+.app{
+    padding: 10px;
+    margin: 10px; 
+    font-size: 28px;
+    background-color: rgb(247, 240, 205);
+    width:fit-content;
+    margin-right: 0px;
+}
 
 
 .info{
     background-color: rgb(155, 194, 245);
-    opacity: 0.8;
+
     width: 90%;
     margin-left: 10px;  
     margin: 20px;
