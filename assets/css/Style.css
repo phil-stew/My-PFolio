@@ -27,7 +27,8 @@
 }
     
 body{
-    background-image: url(../assets/images/ps5.jpg);
+    background-color: lightgoldenrodyellow;
+    background-image: url(../images/ps5.jpg);
     width: 95%; 
 
      
@@ -43,7 +44,7 @@ body{
     margin: 10px; 
     font-size: 28px;
     background-color: rgb(247, 240, 205);
-    width:fit-content;
+    
     margin-left: -9px;
     margin-top: -9px;
     display: inline-block;
@@ -53,18 +54,40 @@ body{
     margin: 10px; 
     font-size: 28px;
     background-color: rgb(247, 240, 205);
-    width:fit-content;
     margin-right: 0px;
 }
 
 
 .info{
     background-color: rgb(155, 194, 245);
-
     width: 90%;
     margin-left: 10px;  
     margin: 20px;
     padding: 10px;
+}
+.info1{
+    background-color: rgb(155, 194, 245);
+    width: 40%;
+    margin-left: 10px;  
+    margin: 20px;
+    padding: 10px;
+    float: left;
+   
+}
+
+.info2{
+    background-color: rgb(155, 194, 245);
+    width: 40%;
+    margin-left: 15px;  
+    margin: 20px;
+    padding: 10px;
+    float: right;
+}
+.exp{
+    background-color: yellow;
+    justify-content: right;
+   
+    width: 98%;
 }
 .pic{
     max-width: 200px;
@@ -72,13 +95,89 @@ body{
     padding: 5px;
     margin: 5px;
     max-height: 175px;
-
 }
+.phil{
+    max-width: 150;
+}    
+
    
 .end-page{
-    margin-top: 10px;
-    background-color: darkgreen;
+    bottom: 1px;
+    background-color:lightblue;
     width: 95%;
-   
-    
+    float: right;   
 } 
+
+main {
+    width: 96%;
+    margin: 2rem auto;
+  }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.justify-center {
+    justify-content: center;
+  }
+
+.card-column 
+{
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.code-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    outline: 2px dashed green;
+    outline-offset: -2px;
+    transition: all 0.5s ease-in-out;
+}
+.code-card .card-header {
+    position: relative;
+    margin: -4rem 0 1.5rem 0;
+    padding: 0.5rem 1rem;
+    background-color: gray;
+    color: blue;
+    border: 2px solid green;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-header{
+    font-size: 20px;
+};
+  
+
+  
+  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+  @media screen and (min-width: 768px) {
+    /* on tablets, set columns to only be 50% of the width and not grow */
+    .card-column {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .card-column:last-child {
+        flex-grow: 1;
+      }
+      .card-column {
+        flex: 0 0 33.333%;
+        max-width: 33.333%;
+      }
+    
+    /* media query for larger screens */
+    @media screen and (min-width: 992px) {
+      header {
+        width: 75%;
+      }
