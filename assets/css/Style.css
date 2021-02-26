@@ -124,6 +124,13 @@ main {
 .justify-center {
     justify-content: center;
   }
+  .column{
+    flex: 1 1 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+    
+  }
 
 .card-column 
 {
@@ -147,22 +154,28 @@ main {
     position: relative;
     margin: -4rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
-    background-color: gray;
-    color: blue;
-    border: 2px solid green;
+    background-color: rgb(7, 3, 59);
+    color: rgb(210, 210, 245);
+    border: 2px solid rgb(188, 230, 92);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
-
-.card-header{
-    font-size: 20px;
-};
+.code-card pre {
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+  }
+  .code-card pre:active {
+    user-select: all;
+  }
   
 
-  
-  /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
   @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow */
+
     .card-column {
       flex: 0 0 50%;
       max-width: 50%;
@@ -174,6 +187,10 @@ main {
       .card-column {
         flex: 0 0 33.333%;
         max-width: 33.333%;
+      }
+      .column{
+          flex:0 0 50%;
+          max-width:50%;
       }
     
     /* media query for larger screens */
