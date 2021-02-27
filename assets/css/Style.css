@@ -1,3 +1,19 @@
+main {
+    width: 96%;
+    margin: 2rem auto;
+}    
+body{
+    background-color: lightgoldenrodyellow;
+    background-image: url(../images/ps5.jpg);
+    width: 95%; 
+    margin-left: 1.5rem;
+    margin-right: 1.5rem    
+}
+body p{
+   
+     text-indent: 20px;
+     font-size: 20px;
+}     
 .name{
     font-size: 45px;
     font-family: cursive;
@@ -21,25 +37,6 @@
     background-color: yellow ;
     
 }    
-
-.top-list{
-    display: inline-block;
-}
-    
-body{
-    background-color: lightgoldenrodyellow;
-    background-image: url(../images/ps5.jpg);
-    width: 95%; 
-    margin-left: 1.5rem;
-    margin-right: 1.5rem
-
-     
-}
- body p{
-   
-     text-indent: 20px;
-     font-size: 20px;
- }
 .head{
    
     padding: 10px;
@@ -50,8 +47,7 @@ body{
     margin-top: -9px;
     display: inline-block;
 }
-    .head1{
-   
+.head1{
         padding: 10px;
         margin: 10px; 
         font-size: 28px;
@@ -82,33 +78,23 @@ body{
     margin-left: 10px;  
     margin: 20px;
     padding: 10px;
-    max-height: min-content;}
-
-   .exp{
-    background-color: yellow;
-    justify-content: right;
-   
-    width: 98%;
+    
 }
+
 .pic{
-    max-width: 200px;
-    text-align: justify;
+    margin: auto;
+    object-fit: scale-down;
+    text-align: center;
     padding: 5px;
     margin: 5px;
-    max-height: 175px;
+    max-width: 300px;    
+}   
+
+.pic:hover{
+    border: solid thick yellow;
+    object-fit: cover;
+    max-width: 500px;
 }
-.phil{
-    max-width: 150;
-}    
-
-   
-
-
-main {
-    width: 96%;
-    margin: 2rem auto;
-  }
-
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -123,8 +109,8 @@ main {
 
 .card-column 
 {
-    flex: 1 0 100%;
-    padding: 1.5rem;
+    flex: 0 1 100%;
+    padding: 2rem;
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
 }
@@ -135,7 +121,7 @@ main {
     justify-content: flex-start;
     min-height: 100%;
     padding: 2rem;
-    outline: 2px dashed green;
+    outline: 1px solid green;
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
 }
@@ -152,8 +138,7 @@ main {
 .code-card .card-header:hover{
      background-color: black;
      font-size: 28px;
-    }
-
+}
 .code-card pre {
     white-space: pre-wrap;
     overflow: auto;
@@ -162,36 +147,32 @@ main {
     border-radius: 8px;
     display: flex;
     align-items: center;
-  }
-
-  .code-card1 .card-header1 {
+}
+.code-card1 .card-header1 {
     position: relative;
     margin: -2.5rem 0 1.5rem 0;
     padding: 0.5rem 1rem;
     background-color: rgb(7, 3, 59);
     color: rgb(210, 210, 245);
-    border: 2px solid rgb(188, 230, 92);
+    border: 1px solid rgb(188, 230, 92);
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
-  }
-  .code-card1 {
+}
+.code-card1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-height: 98%;
+    min-height: 100%;
     padding: 2rem;
-    outline: 2px dashed green;
+    outline: 1px solid green;
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
-  }
-  .card-header1 p{
-      margin: 20px;
-      padding: 20px;
-  }
-  .code-card1 .card-header1:hover{
+}
+
+.code-card1 .card-header1:hover{
     background-color: black;
     font-size: 28px;
-   }
+}
 .end-page {
     position: fixed;
     bottom: 0.5px;
@@ -200,32 +181,34 @@ main {
     margin-bottom: 0.1rem;   
 }  
 
-.end{
+.end{ 
     margin-left: -5px;
     font-size: 22px;
     margin: 1rem;
     background-color:rgb(247, 240, 205); ;
 }
 .end1{
+    text-align: center;
     margin: 0.1rem;
 }
 
-    .email {
+.email {     
         float: left;
         margin: 0.2rem;
         margin-left: 25%;
         font-size: 18px;
         background-color: blanchedalmond;
-    }
-    .number{
+}
+.number{
+     
         font-size: 18px;
         float: right;
         margin: 0.2rem;
         margin-right: 25%;
         background-color: blanchedalmond;
-    }        
+}        
  
-  @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .card-column {
       flex: 1 1 40%;
@@ -235,10 +218,10 @@ main {
     .card-column:last-child {
         flex-grow: 1;
       }
-    
+}
 
-    }
-    @media screen and (min-width: 992px) {
-      header  {
-        width: 75%;
-      }
+@media screen and (max-width: 1082px) {
+.pic{
+    max-width: 200px;    
+}  
+}
