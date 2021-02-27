@@ -1,0 +1,19 @@
+body{
+    background-image: url(../images/track.jpg);
+
+}
+h1{
+     font-size: 50px;
+     text-align: center;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     border: thin 2px blue;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     height: 200px;
+     width: 400px;
+     margin-top: -100px;
+     margin-left: -200px;
+     color: rgb(212, 224, 245);
+     text-shadow: 10px 10px black;
+}
