@@ -91,8 +91,9 @@ body p{
 }   
 
 .pic:hover{
+    box-shadow: 1px 1px green;
     border: solid thick yellow;
-    object-fit: cover;
+    object-fit: contain;
     max-width: 500px;
 }
 .row {
@@ -223,5 +224,11 @@ body p{
 @media screen and (max-width: 1082px) {
 .pic{
     max-width: 200px;    
-}  
+} 
+.pic:hover{
+    box-shadow: 1px 1px green;
+    border: solid thick yellow;
+    object-fit: contain;
+    max-width: 300px;
+} 
 }
