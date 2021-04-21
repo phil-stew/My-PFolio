@@ -140,6 +140,7 @@ body p{
      background-color: black;
      font-size: 28px;
 }
+
 .code-card pre {
     white-space: pre-wrap;
     overflow: auto;
@@ -149,6 +150,7 @@ body p{
     display: flex;
     align-items: center;
 }
+
 .code-card1 .card-header1 {
     position: relative;
     margin: -2.5rem 0 1.5rem 0;
@@ -169,6 +171,16 @@ body p{
     outline-offset: -2px;
     transition: all 0.5s ease-in-out;
 }
+.code-card1 pre {
+    white-space: pre-wrap;
+    overflow: auto;
+    tab-size: 4;
+    padding: 1.2rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
 
 .code-card1 .card-header1:hover{
     background-color: black;
@@ -181,7 +193,12 @@ body p{
     width: 95%;
     margin-bottom: 0.1rem;   
 }  
-
+.project-links{
+    margin: 4px;
+    padding: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
 .end{ 
     margin-left: -5px;
     font-size: 22px;
@@ -189,6 +206,9 @@ body p{
     background-color:rgb(247, 240, 205); ;
 }
 .end1{
+    font-weight: 400;
+    padding: 2px;
+    font-size: 18px;
     text-align: center;
     margin: 0.1rem;
 }
