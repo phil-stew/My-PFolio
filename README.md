@@ -45,3 +45,10 @@ this is what it looks like deployed on iphone
 
 ![On my Phone](/assets/images/port-m.png)
 
+added links to home that wwill take you to GITHUB 
+
+added resume and profile pic on github
+
+
+
+
