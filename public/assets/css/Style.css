@@ -14,8 +14,13 @@ body p{
      text-indent: 20px;
      font-size: 20px;
 }     
+.card li{
+    background-color: rgb(184, 215, 250);
+    padding: .2rem;
 
+}
 .card{
+    margin: .3rem;
     background-color: rgb(184, 215, 250);
 } 
 
@@ -192,7 +197,7 @@ body p{
     font-size: 28px;
 }
 .end-page {
-    position: fixed;
+ 
     bottom: 0.5px;
     background-color:lightblue;
     width: 100%;
