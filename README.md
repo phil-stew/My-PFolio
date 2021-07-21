@@ -34,6 +34,8 @@ added resume and profile pic on github
 
 ## Version Update 
 
+head the server files and add the use of bootstrip 
+reworked some using boot strip and added more links to my work at the boot camp
 
 
 
