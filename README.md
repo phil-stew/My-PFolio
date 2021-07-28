@@ -18,16 +18,16 @@ nav links at the top are fix on the the pages along with the contact partsof the
 because i dont have any projects yet to added
  small links in blue doesnt go anywhere
 
- ![portfolio demo](./assets/images/port-demo.gif)
+
 
 this is what is look like deploy on my computer
 
-![Phillip Stewart](./assets/images/port-top.jpg)
-![Philip stewart zoomed out](./assets/images/port-top1.jpg)
+![Phillip Stewart](./public/assets/images/port-top.jpg)
+![Philip stewart zoomed out](./public/assets/images/port-top1.jpg)
 
 this is what it looks like deployed on iphone
 
-![On my Phone](./assets/images/port-m.png)
+![On my Phone](./public/assets/images/port-m.png)
 
 added links to home that wwill take you to GITHUB
 added resume and profile pic on github
